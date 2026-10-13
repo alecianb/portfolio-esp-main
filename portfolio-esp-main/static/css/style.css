@@ -331,3 +331,22 @@ ul {
   border: none;
   cursor: pointer;
 }
+
+body {
+  background: linear-gradient(180deg, #171A35 0%, #292D52 100%);
+}
+
+.home__title {
+  color: #B9A0F5;
+}
+
+.about__title,
+.skills__title,
+.feedback__title {
+  color: #E0D5FF;
+}
+
+.list-item__link::after,
+.project__link::after {
+  background: #B9A0F5;
+}
